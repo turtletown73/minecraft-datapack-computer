@@ -1,0 +1,1 @@
+$data modify storage computer:asm reg$(currentarg) set from storage computer:asm currentvalue

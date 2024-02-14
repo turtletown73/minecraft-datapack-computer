@@ -1,0 +1,4 @@
+scoreboard objectives add computerbranchleft dummy
+scoreboard objectives add computertemp dummy
+
+function computer:reset_interact
