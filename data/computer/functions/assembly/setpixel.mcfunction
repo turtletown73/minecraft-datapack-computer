@@ -1,0 +1,1 @@
+$data modify storage computer:screen colors[$(setvalue)] set value {r:$(setr), g:$(setg), b:$(setb)}

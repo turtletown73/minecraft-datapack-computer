@@ -12,6 +12,7 @@ execute if data storage computer:asm {current:"subreg"} run function computer:as
 execute if data storage computer:asm {current:"multreg"} run function computer:assembly/cmds/multreg
 execute if data storage computer:asm {current:"divreg"} run function computer:assembly/cmds/divreg
 execute if data storage computer:asm {current:"absreg"} run function computer:assembly/cmds/absreg
+execute if data storage computer:asm {current:"drawpixel"} run function computer:assembly/cmds/drawpixel
 execute if data storage computer:asm {current:"branch"} run function computer:assembly/cmds/branch
 execute if data storage computer:asm {current:"branchifzero"} run function computer:assembly/cmds/branchifzero
 
