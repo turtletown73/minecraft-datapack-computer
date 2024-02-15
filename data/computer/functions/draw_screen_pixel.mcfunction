@@ -1,4 +1,4 @@
-$particle dust $(currentr) $(currentg) $(currentb) 1 $(xpos) $(ypos) 48.5 0 0 0 0 2 force @a
+$particle dust $(currentr) $(currentg) $(currentb) 1 $(xpos) $(ypos) 48.5 0 0 0 0 5 force @a
 
 execute store result score current2 computerscreenx run data get storage computer:screen xpos 10
 execute store result score current2 computerscreeny run data get storage computer:screen ypos 10
