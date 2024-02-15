@@ -13,6 +13,7 @@ execute if data storage computer:asm {current:"multreg"} run function computer:a
 execute if data storage computer:asm {current:"divreg"} run function computer:assembly/cmds/divreg
 execute if data storage computer:asm {current:"absreg"} run function computer:assembly/cmds/absreg
 execute if data storage computer:asm {current:"branch"} run function computer:assembly/cmds/branch
+execute if data storage computer:asm {current:"branchifzero"} run function computer:assembly/cmds/branchifzero
 
 #next line
 execute unless data storage computer:asm {current:"branch"} run data remove storage computer:asm program[0]

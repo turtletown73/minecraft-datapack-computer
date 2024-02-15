@@ -1,1 +1,1 @@
-data remove storage computer:asm *
+data remove storage computer:asm program
